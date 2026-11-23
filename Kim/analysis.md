@@ -1,12 +1,11 @@
-The results reveal something important: **Jev is consistently faster and cheaper, but its accuracy advantage depends heavily on the classification task.**
+**Jev is consistently faster and cheaper, but its accuracy advantage depends heavily on the classification task.**
 
 ## **1. Final results: Jev vs. three LLMs**
 
 First, let's look at the percentage of emails where **all three classifications (purpose, urgency, and relationship) were correct simultaneously.**
 
-All three classifications correct
 
-Agreement with provisional reference labels. Jev was evaluated separately alongside each LLM.
+Jev was evaluated separately alongside each LLM.
 
 Jev 1.14
 
