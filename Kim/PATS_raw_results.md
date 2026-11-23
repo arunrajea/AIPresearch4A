@@ -39,7 +39,6 @@
 
 ## Run 3 — Jev vs. Gemini 3.8 Flash
 
-<!-- GEMINI_RESULTS_START -->
 
 | Metric | Jev (`typesafe/jev-1.14`) | Gemini 3.8 Flash (`google/gemini-3.8-flash`) |
 |---|---:|---:|
@@ -50,12 +49,9 @@
 | Reported API cost (total) | $0.007002 | $0.292652 |
 | Errors | 0 / 160 | 2 / 160 |
 
-<!-- GEMINI_RESULTS_END -->
 
 ## Notes on interpretation
 
-- GPT-4o Mini, GLM-5.3 Flash, and Gemini 3.8 Flash were run independently, and Jev was re-run alongside each LLM. Jev's reported metrics differ slightly between the runs; every figure is preserved as reported.
-- Gemini returned 2 errors, so its accuracy denominators are 158, not 160. The average response time and reported cost figures are retained as provided.
-- These summaries alone do not establish statistical significance or inter-rater agreement.
-- Purpose results may be affected by category imbalance, and AI-assisted answer-key labels should be human-verified before being reported as ground-truth accuracy.
-- Compare model behavior using per-email CSV outputs in addition to the summary statistics when drawing conclusions.
+- GPT-4o Mini, GLM-5.3 Flash, and Gemini 3.8 Flash were run independently, and Jev was re-run alongside each LLM. Jev's reported metrics differ slightly between the runs.
+- Gemini returned 2 errors, so its accuracy denominators are 158, not 160. The average response time and reported cost figures are kept as provided.
+- Compare model behavior using per-email CSV outputs in addition to the summary statistics when we conclude.
