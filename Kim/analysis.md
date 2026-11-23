@@ -12,7 +12,8 @@ Jev 1.14
 
 Comparison LLM
 
-<img width="809" height="355" alt="Screenshot 2026-11-23 at 10 48 58 AM" src="https://github.com/user-attachments/assets/4a439eeb-d60d-47fb-8cfd-0839b2f94e2c" />
+<img width="809" height="355" alt="Screenshot 2026-11-23 at 10 54 42 AM" src="https://github.com/user-attachments/assets/0fb9ba69-b255-459c-879d-cae58c152e8a" />
+
 
 Gemini's 74.1% is based on 158 successful responses; all other scores use 160 emails.
 
@@ -119,7 +120,7 @@ Email purpose distribution
 
 160 emails in the expanded evaluation dataset
 
-020406080WorkSchoolPromotionalPersonal
+<img width="809" height="438" alt="Screenshot 2026-11-23 at 11 03 43 AM" src="https://github.com/user-attachments/assets/f843df06-600f-459d-b525-a28d31b754cb" />
 
 Unlike the original experiment, your dataset now includes 30 promotional emails.
 
