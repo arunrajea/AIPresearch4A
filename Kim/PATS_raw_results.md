@@ -1,4 +1,4 @@
-# PATS — Raw Experimental Results (160 Emails)
+# Raw Experimental Results (160 Emails)
 
 **Experiment:** Jev 1.14 decision model versus general-purpose LLMs on email purpose, urgency, and sender relationship classification.
 
