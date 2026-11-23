@@ -34,7 +34,7 @@ However, Gemini achieved the highest urgency accuracy, outperforming Jev by appr
 
 ## **2. The most interesting discovery: urgency classification**
 
-This is where your results get particularly valuable.
+This is where the results get particularly valuable.
 
 Look at how the models handled the three urgency levels:
 
@@ -106,7 +106,7 @@ That's particularly relevant for applications processing large volumes of emails
 
 ## **4. The expanded dataset revealed something the 100-email experiment missed**
 
-Your original 100-email experiment produced an 86% urgency accuracy for Jev.
+The original 100-email experiment produced an 86% urgency accuracy for Jev.
 
 Now, with 160 emails, that has dropped to approximately 69%.
 
@@ -116,19 +116,15 @@ However, the new dataset includes categories that weren't adequately represented
 
 ### **Dataset composition**
 
-Email purpose distribution
-
-160 emails in the expanded evaluation dataset
-
 <img width="809" height="438" alt="Screenshot 2026-11-23 at 11 03 43 AM" src="https://github.com/user-attachments/assets/f843df06-600f-459d-b525-a28d31b754cb" />
 
-Unlike the original experiment, your dataset now includes 30 promotional emails.
+Unlike the original experiment, the dataset now includes 30 promotional emails.
 
 Interestingly, Jev correctly classified all 30 promotional emails by purpose but incorrectly assessed their urgency.
 
 This is precisely why expanding a dataset matters: **it can expose weaknesses that a smaller, less diverse experiment would miss.**
 
-However, the dataset still contains only two Personal emails. That means you cannot confidently evaluate personal-email classification performance yet.
+However, the dataset still contains only two Personal emails. That means we cannot confidently evaluate personal-email classification performance yet.
 
 ## **5. What about reliability and consistency?**
 
@@ -145,21 +141,21 @@ Its results remained relatively consistent:
 
 This suggests Jev produces relatively stable results under the tested conditions.
 
-However, you would need repeated runs of the other LLMs to determine whether Jev is actually more consistent than its competitors.
+However, we would need repeated runs of the other LLMs to determine whether Jev is actually more consistent than its competitors.
 
 ## **6. What are the limitations?**
 
-There are three important limitations worth mentioning in your research:
+There are three important limitations worth mentioning in the research:
 
 - **Reference labels:** The dataset uses provisional, AI-assisted reference labels. Independent human verification is necessary before claiming definitive real-world accuracy.
 - **Category imbalance:** Only two Personal emails were evaluated, making conclusions about that category unreliable.
 - **Sample size:** Although 160 emails is an improvement over 100, broader testing is necessary before generalizing these findings to real-world email classification.
 
-These limitations don't invalidate your experiment. They simply determine how confidently you can interpret the results.
+These limitations don't invalidate the experiment. They simply determine how confidently we can interpret the results.
 
 ## **My conclusion so far**
 
-Your experiment suggests that **specialized decision models can provide substantial speed and cost advantages while remaining competitive with general-purpose LLMs for structured email classification.**
+The experiment suggests that **specialized decision models can provide substantial speed and cost advantages while remaining competitive with general-purpose LLMs for structured email classification.**
 
 Jev 1.14 consistently outperformed all three LLMs in purpose and sender-relationship accuracy. However, Gemini 3.8 Flash achieved the highest urgency accuracy and the highest overall three-label accuracy.
 
@@ -173,4 +169,4 @@ One particularly valuable discovery is that Jev's urgency errors are concentrate
 
 **The most valuable next experiment:** Modify Jev's urgency-classification approach to address promotional emails, then rerun the same 160-email benchmark.
 
-If that improvement significantly increases urgency accuracy without harming its other metrics, you would have evidence of a targeted, measurable improvement to your decision model—not just a comparison between existing models.
+If that improvement significantly increases urgency accuracy without harming its other metrics, we would have evidence of a targeted, measurable improvement to the decision model—not just a comparison between existing models.
