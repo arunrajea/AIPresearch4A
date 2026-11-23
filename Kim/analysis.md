@@ -12,7 +12,7 @@ Jev 1.14
 
 Comparison LLM
 
-0%25%50%75%100%GPT-4o MiniGLM-5.3 FlashGemini 3.8 Flash
+<img width="809" height="355" alt="Screenshot 2026-11-23 at 10 48 58 AM" src="https://github.com/user-attachments/assets/4a439eeb-d60d-47fb-8cfd-0839b2f94e2c" />
 
 Gemini's 74.1% is based on 158 successful responses; all other scores use 160 emails.
 
